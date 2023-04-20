@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - A program using sizeof to print the size of various type
+ * main - Entry point
+ *
  * Return: Always 0 (success)
  */
 int main(void)
