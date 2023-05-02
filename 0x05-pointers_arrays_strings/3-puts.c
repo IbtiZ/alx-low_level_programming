@@ -6,10 +6,10 @@
  */
 void _puts(char *str)
 {
-    while (*str)
-    {
-	fputc(*str, stdout);
-	str++;
-    }
-    fputc('\n', stdout);
-}
+	while (*str)
+	{
+		fputc(*str, stdout);
+		str++;
+	}
+	fputc('\n', stdout);
+}	
