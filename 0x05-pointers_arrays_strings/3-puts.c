@@ -5,11 +5,9 @@
  */
 void _puts(char *str)
 {
-	int i;
-
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_puts(str[i]);
-	}
-	_puts('\n');
+    while (*str) {
+        fputc(*str, stdout);
+        str++;
+    }
+    fputc('\n', stdout);
 }
